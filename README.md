@@ -22,22 +22,19 @@ lässt sich das später in Unterseiten aufteilen.
    `index.html` auf — Footer, Anfahrt-Sektion, Google-Maps-Embed-Link,
    Schema.org-Block (`<script type="application/ld+json">`) — bei
    Korrektur bitte an allen 4 Stellen ändern.
-2. **Öffnungszeiten ergänzen.** Bisher nur bekannt: „schließt 17:00 Uhr"
-   (Freitag). Volle Wochenzeiten fehlen — suche in `index.html` nach
-   `auf Anfrage` in der Öffnungszeiten-Tabelle und trage die echten Zeiten
-   von der Facebook-Seite ein. Danach auch die
-   `openingHoursSpecification` im Schema.org-Block ergänzen (aktuell
-   bewusst weggelassen, siehe Kommentar dort).
-3. **Fotos ablegen.** Siehe `images/README.md`. Sobald die Dateien im
+2. **Fotos ablegen.** Siehe `images/README.md`. Sobald die Dateien im
    Ordner liegen, Galerie-Anzahl in `index.html` ggf. anpassen, falls
    weniger als 6 Fotos verfügbar sind.
-4. **Preise.** Aktuell überall „auf Anfrage“, da keine Preisliste vorlag.
+3. **Preise.** Aktuell überall „auf Anfrage“, da keine Preisliste vorlag.
    Falls gewünscht, echte Preise in `index.html` in den jeweiligen
    `.service-card`-Blöcken ergänzen.
 
-✅ Bewertungen sind bereits erledigt — 3 echte Google-Rezensionen
-(Belle Desire, Uyun Resch, Petra Mursteiner) sind im Bewertungen-Bereich
-eingetragen.
+✅ Bewertungen erledigt — 3 echte Google-Rezensionen (Belle Desire, Uyun
+Resch, Petra Mursteiner) sind im Bewertungen-Bereich eingetragen.
+
+✅ Öffnungszeiten erledigt — täglich 08:00–18:00, Termin auf Anfrage
+(Hinweis im Anfahrt-Bereich + `openingHoursSpecification` im
+Schema.org-Block gesetzt).
 
 ## Domain & Hosting
 

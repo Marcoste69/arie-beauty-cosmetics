@@ -19,13 +19,6 @@
   <meta property="og:type" content="business.business">
   <!-- TODO: og:url ergänzen, sobald eine Domain feststeht -->
 
-  <!--
-    TODO: openingHoursSpecification bewusst NICHT im Schema unten eingetragen.
-    Bestätigt ist bisher nur "schließt 17:00 Uhr". Falsche Öffnungszeiten im
-    strukturierten Datenblock können in der Google-Suche direkt falsche
-    Zeiten anzeigen – bitte erst ergänzen, wenn die vollen Wochenzeiten
-    von der Facebook-Seite bestätigt sind (siehe README.md).
-  -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,6 +39,12 @@
       "@type": "AggregateRating",
       "ratingValue": "5.0",
       "reviewCount": "8"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
     }
   }
   </script>
@@ -200,14 +199,15 @@
             4880 St. Georgen im Attergau
           </address>
           <table class="hours-table">
-            <tr><th>Montag</th><td>auf Anfrage</td></tr>
-            <tr><th>Dienstag</th><td>auf Anfrage</td></tr>
-            <tr><th>Mittwoch</th><td>auf Anfrage</td></tr>
-            <tr><th>Donnerstag</th><td>auf Anfrage</td></tr>
-            <tr><th>Freitag</th><td>schließt 17:00</td></tr>
-            <tr><th>Samstag</th><td>auf Anfrage</td></tr>
+            <tr><th>Montag</th><td>08:00 – 18:00</td></tr>
+            <tr><th>Dienstag</th><td>08:00 – 18:00</td></tr>
+            <tr><th>Mittwoch</th><td>08:00 – 18:00</td></tr>
+            <tr><th>Donnerstag</th><td>08:00 – 18:00</td></tr>
+            <tr><th>Freitag</th><td>08:00 – 18:00</td></tr>
+            <tr><th>Samstag</th><td>08:00 – 18:00</td></tr>
             <tr><th>Sonntag</th><td>geschlossen</td></tr>
           </table>
+          <p class="hours-note">Behandlungen ausschließlich nach Terminvereinbarung.</p>
           <div class="cta-group">
             <a href="tel:+436764303231" class="btn btn-primary">Anrufen</a>
             <a href="https://wa.me/436764303231" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp</a>

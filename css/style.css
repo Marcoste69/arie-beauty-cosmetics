@@ -157,6 +157,10 @@ section h2.center { max-width: 640px; margin-left: auto; margin-right: auto; mar
   padding: 1.75rem;
   box-shadow: var(--shadow);
 }
+.rating-badge { text-align: center; margin: 0 0 2.5rem; }
+.rating-stars { font-family: var(--font-body); font-size: 1.7rem; letter-spacing: 0.15em; color: var(--color-rosegold-dark); margin: 0 0 0.3rem; }
+.rating-text { font-family: var(--font-body); font-size: 0.9rem; color: var(--color-muted); margin: 0; }
+
 .review-card p { font-family: var(--font-heading); font-size: 1.15rem; font-style: italic; }
 .review-card cite { font-size: 0.85rem; color: var(--color-muted); }
 .reviews-cta { text-align: center; margin-top: 2rem; }
